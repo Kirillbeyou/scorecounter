@@ -1,6 +1,7 @@
 let scoreEl = document.getElementById("scorell")
 let scoreEl2 = document.getElementById("scorell2")
 let count = 0
+let count2 = 0
 
 function incr1(){
     count += 1
@@ -18,16 +19,16 @@ function incr3(){
 }
 
 function incr12(){
-    count += 1
+    count2 += 1
     scoreEl2.innerText = count
 }
 
 function incr22(){
-    count += 2
+    count2 += 2
     scoreEl2.innerText = count
 }
 
 function incr32(){
-    count += 3
+    count2 += 3
     scoreEl2.innerText = count
 }
